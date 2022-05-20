@@ -23,7 +23,7 @@ import App from './App.jsx';
 //     cssStyle.color ='black';
 // }
 
-// ReactDOM.render(<h1>Hello sir ,<span style ={cssStyle}>{greeting} </span></h1>,document.getElementById('root'));
+// ReactDOM.render(<h1>Hello sir ,<span style ={cssStyle}>  {greeting}    </span></h1>,document.getElementById('root'));
 
 // const img1="https://picsum.photos/200/300";
 
