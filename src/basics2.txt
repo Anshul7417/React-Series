@@ -62,7 +62,23 @@ componentDidMount--------no effect of state and props...it is called after html(
 
 agr state change hui toh cdm nhi chlega kyunki vo bss html k load hone k bd hi chlega
 
-ComponentdidUpdate tbhi chlega jb koi state update hogi ya props update honge.phle render fr CDU...if we update state in cdu it will go in infinite loop
+ComponentdidUpdate tbhi chlega jb koi state update hogi ya props update honge.phle render fr CDU...if we update state in cdu it will go in infinite loop so it will use with condition only........Api call ho skti hai condition k sth
+
+Dont update state in cdu also.
+
+shouldComponentUpdate mjhe kuch update krna hai ya nhi mtlb yeh puchta hai ki kya update krana hai...jb state ya prop update honge tbhi chlega yeh. By default It  stop rendering.agar return true bai tbhi state update hogi
+
+componentWillUnmount needs two component.jb bhi component dom se remove krte hai css remove nhi tb component call hoga.Yeh dom k htne se just phle call hota hai
+
+SCU phle call hoga fr CDU
+
+jha hmara componentwill unmount hai bss vo call hoga
+
+With hooks we can use class components features in functional components such as state life cycle pure component etc.
+
+useEffect is the combination of three lcm componentDidMount ComponentdidUpdate and componentWillUnmount.
+
+Hooks cant be used in class component
 
 
 

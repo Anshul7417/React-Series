@@ -11,7 +11,8 @@ import  ReactDOM  from 'react-dom';
 // import Cond from './Cond'
 // import LSU from './LSU';
 // import CDM from './CDM'
-import CDU from './CDU';
+// import CDU from './CDU';
+import CWU2 from './CWU2'
 
 
 // ReactDOM.render(<><Student name="anshul" email="tripathi@test.com" other={{phn:'566',address:"delhi"}}/><Student name="tripathi"/></>,document.getElementById('root'));
@@ -23,6 +24,6 @@ import CDU from './CDU';
 // }
 // ReactDOM.render(<><LSU data={getdata} /></>,document.getElementById("root"))
 
-ReactDOM.render(<><CDU></CDU></>,document.getElementById("root"));
+ReactDOM.render(<><CWU2/></>,document.getElementById("root"));
 
 
