@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import  ReactDOM  from 'react-dom';
 // import User from './User'
@@ -12,7 +13,11 @@ import  ReactDOM  from 'react-dom';
 // import LSU from './LSU';
 // import CDM from './CDM'
 // import CDU from './CDU';
-import CWU2 from './CWU2'
+// import CWU2 from './CWU2'
+// import App from './useEffect2'
+// import {Button} from 'react-bootstrap';
+// import App from './Map'
+import App from './nestedlist';
 
 
 // ReactDOM.render(<><Student name="anshul" email="tripathi@test.com" other={{phn:'566',address:"delhi"}}/><Student name="tripathi"/></>,document.getElementById('root'));
@@ -24,6 +29,18 @@ import CWU2 from './CWU2'
 // }
 // ReactDOM.render(<><LSU data={getdata} /></>,document.getElementById("root"))
 
-ReactDOM.render(<><CWU2/></>,document.getElementById("root"));
+
+// ReactDOM.render(<>
+//     <Button variant="primary">Primary</Button>{' '}
+//     <Button variant="secondary">Secondary</Button>{' '}
+//     <Button variant="success">Success</Button>{' '}
+//     <Button variant="warning">Warning</Button>{' '}
+//     <Button variant="danger">Danger</Button> <Button variant="info">Info</Button>{' '}
+//     <Button variant="light">Light</Button> <Button variant="dark">Dark</Button>{' '}
+//     <Button variant="link">Link</Button>
+//   </>,document.getElementById("root"));
+
+
+ ReactDOM.render(<><App/></>,document.getElementById("root"))
 
 

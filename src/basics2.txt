@@ -80,6 +80,12 @@ useEffect is the combination of three lcm componentDidMount ComponentdidUpdate a
 
 Hooks cant be used in class component
 
+any css can be used together
+
+we use map above loops to traverse bcoz return statement dont support loops
+
+react uses key in array or list to identify better
+
 
 
 
