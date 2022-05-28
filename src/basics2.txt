@@ -86,6 +86,16 @@ we use map above loops to traverse bcoz return statement dont support loops
 
 react uses key in array or list to identify better
 
+app.js m function likho for better speed aur as a props pass kro comp m
+
+pure component rendering k repetition ko rokta hai.agr state same hai toh rokega render hone se vrna by default hr br check krta hai ki kya change h kuch
+
+usememo check krta hai ki kya chalana hai.kyunki by default bhtt kuch chl jata but vo verify krega ki kya chlna hai.
+
+reactjs says dont use ref.ref k pss powwer h dom ko manipulate krne ki.it affects dom directly
+
+
+
 
 
 

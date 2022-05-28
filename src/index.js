@@ -17,7 +17,10 @@ import  ReactDOM  from 'react-dom';
 // import App from './useEffect2'
 // import {Button} from 'react-bootstrap';
 // import App from './Map'
-import App from './nestedlist';
+// import App from './nestedlist';
+// import App from './Reuse'
+// import App from './LSU2'
+import App from './pure'
 
 
 // ReactDOM.render(<><Student name="anshul" email="tripathi@test.com" other={{phn:'566',address:"delhi"}}/><Student name="tripathi"/></>,document.getElementById('root'));
