@@ -104,7 +104,19 @@ HOC-takes component ,,,, returns component
 
 switch srf pehla match krke render kradega.agr name same h toh
 
+if parent has some data then in superchild we can get by context.it means mtlb parent se comp c ko dena h bina a and b ko diye.
 
+p----a-----b-----c
+
+useContext is used in contextapi consumer to prevent it from callback hell.
+
+axios is used to get data from api.
+
+in router if we use component with function then we can easily pass props.
+
+diff bw render and components....
+components m new create hota hai hr brrr.use in props passing
+render m new nhi bnega agr same h toh.
 
 
 

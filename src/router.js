@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react'
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
+// link and navlink are used interchangeably
 function App() {
   return (
     <div className="App">
@@ -8,9 +9,9 @@ function App() {
         <Link to="/home" >Home</Link>
         <br></br>
         <Link to="/about" >About</Link>
-        <Route path="/home" > <Home /></Route>
-        <Route path="/about" exact={true}> <About /></Route>
-
+        {/* <Route path="/home" component={Home} > <Home /></Route>      */}
+        <Route path="/about" exact={true} > <About /></Route>
+        <Route exact path="/" component ={()=> <About name ="About"/>}></Route> 
 
       </Router>
     </div>
@@ -34,3 +35,4 @@ function About() {
   )
 }
 export default App;
+//commented wala same h
