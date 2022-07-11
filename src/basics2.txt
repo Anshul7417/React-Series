@@ -94,6 +94,15 @@ usememo check krta hai ki kya chalana hai.kyunki by default bhtt kuch chl jata b
 
 reactjs says dont use ref.ref k pss powwer h dom ko manipulate krne ki.it affects dom directly
 
+forwardref use krte h jb button kisi component m ho aur component khi alg jisko manipulate krna hai.
+
+controlled components handle through state while uncontrolled through dom
+
+forwardref class component se bhi chl jayega.
+
+HOC-takes component ,,,, returns component
+
+switch srf pehla match krke render kradega.agr name same h toh
 
 
 
