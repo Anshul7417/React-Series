@@ -1,4 +1,4 @@
-//react is a js library.react cant directly connect to database it is possible through api only.
+//react is a js library.react cant directly connect to database it is possible through api only./
 // react uses virtual dom--------srf utna hi load hogi jitna change hua hai...released in 2013
 
 //react js can be used without npm node by using only cdn(content delievery network).
