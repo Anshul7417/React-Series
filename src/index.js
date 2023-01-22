@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import  ReactDOM  from 'react-dom';
-// import User from './User'
+// import User from './1_User'
 // import Test from './Test'
 // import App2 from './App2'
 // import Student from './PropsFC';

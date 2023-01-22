@@ -1,9 +1,10 @@
-//react is a js library.react cant directly connect to database it is possible through api only./
+//react is a js library.react cant directly connect to database it is possible through api only.
+
 // react uses virtual dom--------srf utna hi load hogi jitna change hua hai...released in 2013
 
 //react js can be used without npm node by using only cdn(content delievery network).
 
-//npm is a tool that is used to install packages.Npx is atool that is used to execute packages..npm alternative is yarn which is of facebook
+//npm is a tool that is used to install packages.Npx is a tool that is used to execute packages..npm alternative is yarn which is of facebook.
 
 //change package.json and then use install uninstall to do anything.
 
@@ -11,9 +12,9 @@
 
 //component---A piece of code that can reuse..powerful than functions.........many types----functional class HOC pure controlled uncontrolled
 
-we can also define components inside components but then that component must be used inside it parents..
+we can also define components inside components but then that component must be used inside only it parents..
 
-React nad angular can be used parallely.
+React and angular can be used parallely.
 
 JSX means javascriptXML.
 
@@ -34,9 +35,9 @@ usestate cant be used in class components
 
 props can always be changed from the parent component sender not receiver
 
-function can also be sent as state and this is called lifting up state
+function can also be sent as props and this is called lifting up state
 
-we can html as props...this.props.children for cc and props.children
+we can html as props...this.props.children for class component and props.children for functional component
 
 we can also send data without form tag
 
@@ -59,6 +60,8 @@ Render life cycle method gets called everytime when props/states are changed.
 props can also be used in constructor.
 
 componentDidMount--------no effect of state and props...it is called after html(dom) is ready.It is used for api.Jo chizo ki html pr dependency rehti hai unko krwaenge bd m iski help se.ex-----hide show krna nhai but html abhi ready hi nhi h tb kraenge use
+
+phle render fr cdm
 
 agr state change hui toh cdm nhi chlega kyunki vo bss html k load hone k bd hi chlega
 

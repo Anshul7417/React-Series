@@ -6,7 +6,7 @@ function Form() {
   function getFormData(e)
   {
     console.warn(name,tnc,interest)
-    e.preventDefault()
+    e.preventDefault();
   }
   return (
     <div className="App">

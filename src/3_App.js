@@ -7,7 +7,7 @@ function App() {
     setData(data+1)
    
   }
-  console.warn("______");
+  console.warn("______");  //it does not render in case of var but in case of state
   return (
     <div className="App">
      <h1>{data}</h1>

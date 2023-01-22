@@ -1,4 +1,5 @@
 import React from 'react';
+// import {Component} from 'react';
 class User extends React.Component{     //class component
     render(){
         return (
