@@ -119,7 +119,17 @@ in router if we use component with function then we can easily pass props.
 
 diff bw render and components....
 components m new create hota hai hr brrr.use in props passing
-render m new nhi bnega agr same h toh.
+render m new nhi bnega agr same h toh.or if u want to pass props
+
+So, React hooks provides a concept call Context.
+React Context API allows you to easily access data at
+different levels of the component tree,
+without passing prop to every level
+
+
+create context --- provider ----- consumer(always expect function)
+
+context api creates callback hell so we need to use usecontext hook
 
 
 

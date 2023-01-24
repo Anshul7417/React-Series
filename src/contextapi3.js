@@ -13,3 +13,20 @@ export default ComC;
 
 
 // callback hell if lastname is to be transported
+
+
+// <FirstName. Consumer>
+// {(fname) => {
+// return (
+// <LastName. Consumer >
+// {(1name) => {
+// return (
+// <h1>
+// My name is {fname} {lname}
+// </h1>
+// );
+// }}
+// </LastName.Consumer >
+// );
+// }}
+// </FirstName. Consumer>
